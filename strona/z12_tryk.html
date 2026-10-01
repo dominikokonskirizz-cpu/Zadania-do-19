@@ -1,0 +1,26 @@
+       <html> 
+         <body> 
+          <div style="color:green;font-size:32px;"> 
+            <script language="JavaScript"> 
+// Michał Tryksza 2P 17.09.2026r 
+// Zadanie 12
+              var D1_try=prompt("Data1>Data2    Data1=",""); 
+              var G1_try=prompt("Godzina1>Godzina2    Godzina1=",""); 
+              var D2_try=prompt("Data2<Data1    Data2=","");
+              var G2_try=prompt("Godzina2<Godzina1    Godzina2=","");
+              var sekund_try; 
+              var a=parseFloat(D1_try); 
+              var b=parseFloat(D2_try); 
+                var c=parseFloat(G1_try);
+                var d=parseFloat(G2_try);
+                sekund_try=((a-b)*24+ c-d)*36000;
+              document.write("Ilość sekund między dniami "+a+" i "+b+" = "+sekund_try+" s"+"<br>"); 
+                function okno_zamknij_tryksza() 
+                 { 
+                   window.close() 
+                 } 
+              </script> 
+            </div> 
+          <input type="button" value="zamknij okno" onclick="okno_zamknij_tryksza()"/> 
+        </body> 
+       </html> 

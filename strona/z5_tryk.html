@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Zadanie 5 - Tryksza</title>
+        <script language="JavaScript">
+            document.write("<span style='color:red; font-size:2cm'>Wykonał: Michał Tryksza - Mój numer w dzienniku to 20, czyli mam układ[20 mod 4=0] układ 4</span><br>");
+            function WinOpen_grafika1()  
+            {
+                window.open("grafika1.html","grafika1","toolbar=no,directories=no,menubar=no,height=380,width=260,top=700,left=10");
+            }
+            function WinOpen_grafika2()  
+            {
+                window.open("grafika2.html","grafika2","toolbar=no,directories=no,menubar=no,height=380,width=260,top=700,left=190");
+            }
+            function WinOpen_grafika3()  
+            {
+                window.open("grafika3.html","grafika3","toolbar=no,directories=no,menubar=no,height=380,width=260,top=700,left=330");
+            }
+            function WinOpen_grafika4()  
+            {
+                window.open("grafika4.html","grafika4","toolbar=no,directories=no,menubar=no,height=380,width=260,top=700,left=560");
+            }
+            function okno_zamknij()  
+            { 
+                window.close() 
+            }
+
+        </script>
+<body>
+    <input type="button" name="grafika1" value="grafika1" onclick="WinOpen_grafika1(' ')" position="" top="200" left="400">
+    <input type="button" name="grafika2" value="grafika2" onclick="WinOpen_grafika2(' ')" position="" top="200" left="400">
+    <input type="button" name="grafika3" value="grafika3" onclick="WinOpen_grafika3(' ')" position="" top="200" left="400">
+    <input type="button" name="grafika4" value="grafika4" onclick="WinOpen_grafika4(' ')" position="" top="200" left="400">
+    <input type="button" value="zamknij okno" onclick="okno_zamknij()"/> 
+</body>
+</html>
